@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827C2DA61DBE0FE800352E9C /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827C2DA51DBE0FE800352E9C /* GHUnitIOS.framework */; };
+		87D986B11F18B9F60031F755 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D986981F18B9420031F755 /* libOCMock.a */; };
+		87D986B21F18BA0F0031F755 /* NSNotificationCenter+OCMAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D9868C1F18B92F0031F755 /* NSNotificationCenter+OCMAdditions.h */; };
+		87D986B31F18BA0F0031F755 /* OCMArg.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D9868D1F18B92F0031F755 /* OCMArg.h */; };
+		87D986B41F18BA0F0031F755 /* OCMConstraint.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D9868E1F18B92F0031F755 /* OCMConstraint.h */; };
+		87D986B51F18BA0F0031F755 /* OCMFunctions.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D9868F1F18B92F0031F755 /* OCMFunctions.h */; };
+		87D986B61F18BA0F0031F755 /* OCMLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986901F18B92F0031F755 /* OCMLocation.h */; };
+		87D986B71F18BA0F0031F755 /* OCMMacroState.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986911F18B92F0031F755 /* OCMMacroState.h */; };
+		87D986B81F18BA0F0031F755 /* OCMock.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986921F18B92F0031F755 /* OCMock.h */; };
+		87D986B91F18BA0F0031F755 /* OCMockObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986931F18B92F0031F755 /* OCMockObject.h */; };
+		87D986BA1F18BA0F0031F755 /* OCMRecorder.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986941F18B92F0031F755 /* OCMRecorder.h */; };
+		87D986BB1F18BA0F0031F755 /* OCMStubRecorder.h in Sources */ = {isa = PBXBuildFile; fileRef = 87D986951F18B92F0031F755 /* OCMStubRecorder.h */; };
+		87EEBAA91F186F46002D0FA2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87EEBAA71F186F46002D0FA2 /* Info.plist */; };
+		87EEBAAA1F186F46002D0FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EEBAA81F186F46002D0FA2 /* main.m */; };
+		87FAFCB71F186B6600B51447 /* XituTestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FAFCB61F186B6600B51447 /* XituTestOne.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827C2D851DBE0E3500352E9C /* GHU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827C2DA51DBE0FE800352E9C /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		87D9868C1F18B92F0031F755 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		87D9868D1F18B92F0031F755 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		87D9868E1F18B92F0031F755 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		87D9868F1F18B92F0031F755 /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		87D986901F18B92F0031F755 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		87D986911F18B92F0031F755 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		87D986921F18B92F0031F755 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		87D986931F18B92F0031F755 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		87D986941F18B92F0031F755 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		87D986951F18B92F0031F755 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		87D986981F18B9420031F755 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		87D986AF1F18B9D60031F755 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		87EEBAA71F186F46002D0FA2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EEBAA81F186F46002D0FA2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FAFCB61F186B6600B51447 /* XituTestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XituTestOne.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827C2D821DBE0E3500352E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D986B11F18B9F60031F755 /* libOCMock.a in Frameworks */,
+				827C2DA61DBE0FE800352E9C /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827C2D7C1DBE0E3500352E9C = {
+			isa = PBXGroup;
+			children = (
+				87D986961F18B92F0031F755 /* OCMock */,
+				827C2DA51DBE0FE800352E9C /* GHUnitIOS.framework */,
+				827C2D871DBE0E3500352E9C /* GHU */,
+				827C2D861DBE0E3500352E9C /* Products */,
+				87D986971F18B9420031F755 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		827C2D861DBE0E3500352E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827C2D851DBE0E3500352E9C /* GHU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827C2D871DBE0E3500352E9C /* GHU */ = {
+			isa = PBXGroup;
+			children = (
+				87FAFCB61F186B6600B51447 /* XituTestOne.m */,
+				827C2D881DBE0E3500352E9C /* Supporting Files */,
+			);
+			path = GHU;
+			sourceTree = "<group>";
+		};
+		827C2D881DBE0E3500352E9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EEBAA71F186F46002D0FA2 /* Info.plist */,
+				87EEBAA81F186F46002D0FA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87D986961F18B92F0031F755 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				87D986AF1F18B9D60031F755 /* libOCMock.a */,
+				87D9868C1F18B92F0031F755 /* NSNotificationCenter+OCMAdditions.h */,
+				87D9868D1F18B92F0031F755 /* OCMArg.h */,
+				87D9868E1F18B92F0031F755 /* OCMConstraint.h */,
+				87D9868F1F18B92F0031F755 /* OCMFunctions.h */,
+				87D986901F18B92F0031F755 /* OCMLocation.h */,
+				87D986911F18B92F0031F755 /* OCMMacroState.h */,
+				87D986921F18B92F0031F755 /* OCMock.h */,
+				87D986931F18B92F0031F755 /* OCMockObject.h */,
+				87D986941F18B92F0031F755 /* OCMRecorder.h */,
+				87D986951F18B92F0031F755 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		87D986971F18B9420031F755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D986981F18B9420031F755 /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827C2D841DBE0E3500352E9C /* GHU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827C2D9C1DBE0E3600352E9C /* Build configuration list for PBXNativeTarget "GHU" */;
+			buildPhases = (
+				827C2D811DBE0E3500352E9C /* Sources */,
+				827C2D821DBE0E3500352E9C /* Frameworks */,
+				827C2D831DBE0E3500352E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHU;
+			productName = GHU;
+			productReference = 827C2D851DBE0E3500352E9C /* GHU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827C2D7D1DBE0E3500352E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = neusoft;
+				TargetAttributes = {
+					827C2D841DBE0E3500352E9C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HD29GU94HU;
+					};
+				};
+			};
+			buildConfigurationList = 827C2D801DBE0E3500352E9C /* Build configuration list for PBXProject "GHU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827C2D7C1DBE0E3500352E9C;
+			productRefGroup = 827C2D861DBE0E3500352E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827C2D841DBE0E3500352E9C /* GHU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827C2D831DBE0E3500352E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EEBAA91F186F46002D0FA2 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827C2D811DBE0E3500352E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D986B21F18BA0F0031F755 /* NSNotificationCenter+OCMAdditions.h in Sources */,
+				87D986B31F18BA0F0031F755 /* OCMArg.h in Sources */,
+				87D986B41F18BA0F0031F755 /* OCMConstraint.h in Sources */,
+				87D986B51F18BA0F0031F755 /* OCMFunctions.h in Sources */,
+				87D986B61F18BA0F0031F755 /* OCMLocation.h in Sources */,
+				87D986B71F18BA0F0031F755 /* OCMMacroState.h in Sources */,
+				87D986B81F18BA0F0031F755 /* OCMock.h in Sources */,
+				87D986B91F18BA0F0031F755 /* OCMockObject.h in Sources */,
+				87D986BA1F18BA0F0031F755 /* OCMRecorder.h in Sources */,
+				87D986BB1F18BA0F0031F755 /* OCMStubRecorder.h in Sources */,
+				87EEBAAA1F186F46002D0FA2 /* main.m in Sources */,
+				87FAFCB71F186B6600B51447 /* XituTestOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		827C2D9A1DBE0E3600352E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827C2D9B1DBE0E3600352E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827C2D9D1DBE0E3600352E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD29GU94HU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GHU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GHU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		827C2D9E1DBE0E3600352E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD29GU94HU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GHU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GHU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827C2D801DBE0E3500352E9C /* Build configuration list for PBXProject "GHU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C2D9A1DBE0E3600352E9C /* Debug */,
+				827C2D9B1DBE0E3600352E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827C2D9C1DBE0E3600352E9C /* Build configuration list for PBXNativeTarget "GHU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C2D9D1DBE0E3600352E9C /* Debug */,
+				827C2D9E1DBE0E3600352E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827C2D7D1DBE0E3500352E9C /* Project object */;
+}

@@ -1,0 +1,14 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://git.juejin.id/iOS/JueJinSpecs.git'
+
+use_frameworks!
+
+target 'test-demo' do
+
+   pod 'JueJinBasedComponent', '~> 0.1.0'
+
+
+
+
+end

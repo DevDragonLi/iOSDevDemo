@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876EABCA1FB469390090DA28 /* LFLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 876EABC91FB469390090DA28 /* LFLImageView.m */; };
+		87DC29561FB467D50016FCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC29551FB467D50016FCBB /* AppDelegate.m */; };
+		87DC29591FB467D50016FCBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC29581FB467D50016FCBB /* ViewController.m */; };
+		87DC295C1FB467D50016FCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC295A1FB467D50016FCBB /* Main.storyboard */; };
+		87DC295E1FB467D50016FCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC295D1FB467D50016FCBB /* Assets.xcassets */; };
+		87DC29611FB467D50016FCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC295F1FB467D50016FCBB /* LaunchScreen.storyboard */; };
+		87DC29641FB467D50016FCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC29631FB467D50016FCBB /* main.m */; };
+		F2D4E228ECA3825DD2090127 /* libPods-GIF-Optimize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEC5F2C5D54384B52DDEE66 /* libPods-GIF-Optimize.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283AA8D01A9B5D0D70874EC4 /* Pods-GIF-Optimize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF-Optimize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIF-Optimize/Pods-GIF-Optimize.debug.xcconfig"; sourceTree = "<group>"; };
+		6A988943C0AB5AEE8F9D4535 /* Pods-GIF-Optimize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF-Optimize.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIF-Optimize/Pods-GIF-Optimize.release.xcconfig"; sourceTree = "<group>"; };
+		876EABC81FB469390090DA28 /* LFLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLImageView.h; sourceTree = "<group>"; };
+		876EABC91FB469390090DA28 /* LFLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLImageView.m; sourceTree = "<group>"; };
+		87DC29511FB467D50016FCBB /* GIF-Optimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIF-Optimize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC29541FB467D50016FCBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87DC29551FB467D50016FCBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87DC29571FB467D50016FCBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87DC29581FB467D50016FCBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87DC295B1FB467D50016FCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87DC295D1FB467D50016FCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DC29601FB467D50016FCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87DC29621FB467D50016FCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DC29631FB467D50016FCBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAEC5F2C5D54384B52DDEE66 /* libPods-GIF-Optimize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIF-Optimize.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87DC294E1FB467D50016FCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D4E228ECA3825DD2090127 /* libPods-GIF-Optimize.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCB4BAAC7CD5967997EF304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC5F2C5D54384B52DDEE66 /* libPods-GIF-Optimize.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5165D6EECF8642D4A56A5531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283AA8D01A9B5D0D70874EC4 /* Pods-GIF-Optimize.debug.xcconfig */,
+				6A988943C0AB5AEE8F9D4535 /* Pods-GIF-Optimize.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		876EABC71FB469390090DA28 /* LFLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				876EABC81FB469390090DA28 /* LFLImageView.h */,
+				876EABC91FB469390090DA28 /* LFLImageView.m */,
+			);
+			path = LFLImageView;
+			sourceTree = "<group>";
+		};
+		87DC29481FB467D50016FCBB = {
+			isa = PBXGroup;
+			children = (
+				87DC29531FB467D50016FCBB /* GIF-Optimize */,
+				87DC29521FB467D50016FCBB /* Products */,
+				5165D6EECF8642D4A56A5531 /* Pods */,
+				2BCB4BAAC7CD5967997EF304 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87DC29521FB467D50016FCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87DC29511FB467D50016FCBB /* GIF-Optimize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87DC29531FB467D50016FCBB /* GIF-Optimize */ = {
+			isa = PBXGroup;
+			children = (
+				876EABC71FB469390090DA28 /* LFLImageView */,
+				87DC29541FB467D50016FCBB /* AppDelegate.h */,
+				87DC29551FB467D50016FCBB /* AppDelegate.m */,
+				87DC29571FB467D50016FCBB /* ViewController.h */,
+				87DC29581FB467D50016FCBB /* ViewController.m */,
+				87DC295A1FB467D50016FCBB /* Main.storyboard */,
+				87DC295D1FB467D50016FCBB /* Assets.xcassets */,
+				87DC295F1FB467D50016FCBB /* LaunchScreen.storyboard */,
+				87DC29621FB467D50016FCBB /* Info.plist */,
+				87DC29631FB467D50016FCBB /* main.m */,
+			);
+			path = "GIF-Optimize";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87DC29501FB467D50016FCBB /* GIF-Optimize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC29671FB467D50016FCBB /* Build configuration list for PBXNativeTarget "GIF-Optimize" */;
+			buildPhases = (
+				652696A6262E4296E810515C /* [CP] Check Pods Manifest.lock */,
+				87DC294D1FB467D50016FCBB /* Sources */,
+				87DC294E1FB467D50016FCBB /* Frameworks */,
+				87DC294F1FB467D50016FCBB /* Resources */,
+				6129FDFAFA2E830D18B5CA15 /* [CP] Embed Pods Frameworks */,
+				08CBE2BAA32CCAC0D94563F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GIF-Optimize";
+			productName = "GIF-Optimize";
+			productReference = 87DC29511FB467D50016FCBB /* GIF-Optimize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87DC29491FB467D50016FCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "XiTu Inc";
+				TargetAttributes = {
+					87DC29501FB467D50016FCBB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87DC294C1FB467D50016FCBB /* Build configuration list for PBXProject "GIF-Optimize" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87DC29481FB467D50016FCBB;
+			productRefGroup = 87DC29521FB467D50016FCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87DC29501FB467D50016FCBB /* GIF-Optimize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87DC294F1FB467D50016FCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC29611FB467D50016FCBB /* LaunchScreen.storyboard in Resources */,
+				87DC295E1FB467D50016FCBB /* Assets.xcassets in Resources */,
+				87DC295C1FB467D50016FCBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CBE2BAA32CCAC0D94563F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIF-Optimize/Pods-GIF-Optimize-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6129FDFAFA2E830D18B5CA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIF-Optimize/Pods-GIF-Optimize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652696A6262E4296E810515C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIF-Optimize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87DC294D1FB467D50016FCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC29591FB467D50016FCBB /* ViewController.m in Sources */,
+				876EABCA1FB469390090DA28 /* LFLImageView.m in Sources */,
+				87DC29641FB467D50016FCBB /* main.m in Sources */,
+				87DC29561FB467D50016FCBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87DC295A1FB467D50016FCBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC295B1FB467D50016FCBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87DC295F1FB467D50016FCBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC29601FB467D50016FCBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87DC29651FB467D50016FCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87DC29661FB467D50016FCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87DC29681FB467D50016FCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283AA8D01A9B5D0D70874EC4 /* Pods-GIF-Optimize.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD29GU94HU;
+				INFOPLIST_FILE = "GIF-Optimize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.GIF-Optimize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87DC29691FB467D50016FCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A988943C0AB5AEE8F9D4535 /* Pods-GIF-Optimize.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD29GU94HU;
+				INFOPLIST_FILE = "GIF-Optimize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.GIF-Optimize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87DC294C1FB467D50016FCBB /* Build configuration list for PBXProject "GIF-Optimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC29651FB467D50016FCBB /* Debug */,
+				87DC29661FB467D50016FCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC29671FB467D50016FCBB /* Build configuration list for PBXNativeTarget "GIF-Optimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC29681FB467D50016FCBB /* Debug */,
+				87DC29691FB467D50016FCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87DC29491FB467D50016FCBB /* Project object */;
+}

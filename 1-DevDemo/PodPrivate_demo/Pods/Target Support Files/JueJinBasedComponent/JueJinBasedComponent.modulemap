@@ -1,0 +1,6 @@
+framework module JueJinBasedComponent {
+  umbrella header "JueJinBasedComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

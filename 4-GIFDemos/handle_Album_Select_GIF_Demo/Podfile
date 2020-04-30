@@ -1,0 +1,10 @@
+
+platform :ios, '8.0'
+
+target 'handle_Album_Select_GIF_Demo' do
+
+pod 'SDWebImage', '~> 4.2.2'
+pod 'SDWebImage/GIF', '~> 4.2.2'
+pod 'FLAnimatedImage', '~> 1.0.12'
+
+end
